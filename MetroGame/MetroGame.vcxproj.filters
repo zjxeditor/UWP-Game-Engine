@@ -1,0 +1,1107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>fa19a69d-c23a-4d4b-aac0-c0e386d745af</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>8b8fa74d-6887-4e23-aafe-5bcebd1c41d3</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>365afee4-228f-43eb-9af4-02e0c7c4b0b4</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\SampleFpsTextRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\SampleFpsTextRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Media">
+      <UniqueIdentifier>{6c9d9344-8c81-4ab3-8e35-a7d6a2642cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Models">
+      <UniqueIdentifier>{0177317b-314b-4eb4-bbca-801d2b224501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Textures">
+      <UniqueIdentifier>{a865ea17-a954-46a9-94fe-1bcf30446eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9dad9e07-3127-4749-aad1-9523d191c700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\TreeSprite">
+      <UniqueIdentifier>{7621cdd3-bb2e-4857-8f10-082d3a491d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{24b0de43-d759-457a-9efc-0ec1fcee15d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Waves">
+      <UniqueIdentifier>{5058cfda-483f-470f-8347-7c5da87eaa79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sky">
+      <UniqueIdentifier>{af56af29-f9d5-44aa-9e56-0a339957f021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Terrain">
+      <UniqueIdentifier>{8b5e14c3-78f1-4ab0-b038-cd9c7e4620f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicParticleSystem">
+      <UniqueIdentifier>{8ff2cc7c-0a98-492c-a04a-508404dac15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicParticleSystem\Fire">
+      <UniqueIdentifier>{00665209-f7af-4198-83f5-e55cf4c0043c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicParticleSystem\Rain">
+      <UniqueIdentifier>{c291e4ea-89b3-432c-a5fb-15f37250a4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicObjectHelper">
+      <UniqueIdentifier>{8a7d5eae-129c-4e9a-9082-37aac4b0272a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicObject">
+      <UniqueIdentifier>{e28845a6-f152-42fa-906f-8cc8d65fb345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BasicObject\Specific">
+      <UniqueIdentifier>{2dc026a8-e3fa-4ab0-8199-b1689301545c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Other">
+      <UniqueIdentifier>{ea3e9b3e-7337-41ea-88b4-f16fdb43f1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes">
+      <UniqueIdentifier>{cbd857a4-c449-4227-a87e-2f3ce6c3073e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\WindMill">
+      <UniqueIdentifier>{f2d6099d-bb07-4eb7-9f2a-167688455a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\Rocket">
+      <UniqueIdentifier>{9ce6b891-8d1e-4635-accf-0061da72e370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\HeadHunter">
+      <UniqueIdentifier>{c8e1e79b-082b-47c5-b742-0ac60526ff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\Eagle">
+      <UniqueIdentifier>{1f648387-91ef-4240-ba96-2e312329cf03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\SpaceStation">
+      <UniqueIdentifier>{ab302d13-08a0-4b33-a518-7d83cbae31d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\ThreeBodyShip">
+      <UniqueIdentifier>{dd2cfa92-b1e1-4d1a-b842-8567effd64e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\ThroneRoom">
+      <UniqueIdentifier>{cf17cc77-8254-4fc9-857a-45cd1125949f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="DXFrameworkMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TextureMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BasicLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BasicReaderWriter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DirectXHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\RenderStateMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ShaderMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LoadScreen.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ShaderChangement.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskExtensions.cpp" />
+    <ClCompile Include="Content\ObjectsRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Sky.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\DynamicCubeMapHelper.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ShadowHelper.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\SsaoHelper.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\DynamicMapObjectsRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ShadowObjectsRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SsaoObjectsRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MapDisplayer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Terrain.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\TerrainRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BasicParticleSystem.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ParticelSystemRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GpuWaves.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\GPUWavesRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BillboardTrees.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Waves.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MeshGeometry.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BasicObject.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MeshObject.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\MeshModelRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\X3DLoader.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="DXFrameworkMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TextureMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BasicLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BasicReaderWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\RenderStateMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ShaderMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ConstantBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LoadScreen.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ShaderChangement.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskExtensions.h" />
+    <ClInclude Include="Content\ObjectsRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sky.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\DynamicCubeMapHelper.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ShadowHelper.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\SsaoHelper.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\DynamicMapObjectsRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShadowObjectsRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SsaoObjectsRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MapDisplayer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Terrain.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\TerrainRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BasicParticleSystem.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ParticleSystemRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GpuWaves.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\GPUWavesRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BillboardTrees.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Waves.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MeshGeometry.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BasicObject.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MeshObject.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\MeshModelRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\X3DLoader.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\bricks.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\floor.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\stone.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\grass.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\water.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\wireFence.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\tree0.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\tree1.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\tree2.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\tree3.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\desertcube1024.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\grasscube1024.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\snowcube1024.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\sunsetcube1024.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\bricks_nmap.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\floor_nmap.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\stones_nmap.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-100.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Media\Textures\terrainblend.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\terraindarkdirt.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\terraingrass.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\terrainlightdirt.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\terrainsnow.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\terrainstone.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\ColorCrate.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Media\Textures\flare0.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\raindrop.dds">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Models\terrain.raw">
+      <Filter>Media\Models</Filter>
+    </Image>
+    <Image Include="Media\Models\terrain2.raw">
+      <Filter>Media\Models</Filter>
+    </Image>
+    <Image Include="Media\Other\cover.jpg">
+      <Filter>Media\Other</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Rocket\ARIAN.JPG">
+      <Filter>Media\Meshes\Rocket</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Rocket\ARIWHI.JPG">
+      <Filter>Media\Meshes\Rocket</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Rocket\LAKEREM2.JPG">
+      <Filter>Media\Meshes\Rocket</Filter>
+    </Image>
+    <Image Include="Media\Meshes\HeadHunter\Map__1_Falloff.jpg">
+      <Filter>Media\Meshes\HeadHunter</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak4.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak5.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak5b.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak6.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak7.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak8.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak9.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak10.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak11.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balbeak12.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor1.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor4.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor5.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor6.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor7.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balcor8.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Baleng1.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Baleng2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Baleng3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Baleng4.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Baleng5.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balfram2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balfram3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balpod1.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balpod2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balpod3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod1.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod2.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod3.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod4.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod5.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod6.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod7.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod8.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\Balspod9.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\clouds.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\Eagle\SKY.jpg">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\ALUM_8L2.JPG">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\ALUM_8L4.JPG">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\ALUM_809.JPG">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\Aluminum6.jpg">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\Map__8_Falloff.jpg">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\Map__9_Mix.jpg">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceStation\Map__12_Mix.jpg">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Concrete_0135.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Concrete_0340.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Copper_Panels_0013.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0038.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0160.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Flooring_0173.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Metal_0030.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+    <Image Include="Media\Meshes\ThroneRoom\Metal_0103.jpg">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXFramework_TemporaryKey.pfx" />
+    <None Include="Shaders\ShaderInclude.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BasicParticleSystem\BasicCommonDrawGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\BasicParticleSystem\BasicCommonDrawPS.hlsl">
+      <Filter>Shaders\BasicParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\BasicParticleSystem\BasicCommonDrawVS.hlsl">
+      <Filter>Shaders\BasicParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\BasicParticleSystem\BasicCommonSOGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\BasicObject\BasicBaseDS.hlsl">
+      <Filter>Shaders\BasicObject</Filter>
+    </None>
+    <None Include="Shaders\BasicObject\BasicBaseHS.hlsl">
+      <Filter>Shaders\BasicObject</Filter>
+    </None>
+    <None Include="Shaders\BasicObject\BasicBasePS.hlsl">
+      <Filter>Shaders\BasicObject</Filter>
+    </None>
+    <None Include="Shaders\BasicObject\BasicBaseVS.hlsl">
+      <Filter>Shaders\BasicObject</Filter>
+    </None>
+    <None Include="Shaders\Waves\WavesBasePS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </None>
+    <None Include="Shaders\TreeSprite\TreeBasePS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </None>
+    <None Include="Shaders\Terrain\TerrainBasePS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\BasicObjectHelper\TextureDisplayPS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </None>
+    <None Include="Media\Meshes\Rocket\Rocket.x3d">
+      <Filter>Media\Meshes\Rocket</Filter>
+    </None>
+    <None Include="Media\Meshes\WindMill\WindMill.x3d">
+      <Filter>Media\Meshes\WindMill</Filter>
+    </None>
+    <None Include="Media\Meshes\HeadHunter\HeadHunter.x3d">
+      <Filter>Media\Meshes\HeadHunter</Filter>
+    </None>
+    <None Include="Media\Meshes\Eagle\Eagle.x3d">
+      <Filter>Media\Meshes\Eagle</Filter>
+    </None>
+    <None Include="Media\Meshes\SpaceStation\SpaceStation.x3d">
+      <Filter>Media\Meshes\SpaceStation</Filter>
+    </None>
+    <None Include="Media\Meshes\ThreeBodyShip\ThreeBodyShip.x3d">
+      <Filter>Media\Meshes\ThreeBodyShip</Filter>
+    </None>
+    <None Include="Media\Meshes\ThroneRoom\ThroneRoom.x3d">
+      <Filter>Media\Meshes\ThroneRoom</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Media\Models\skull.txt">
+      <Filter>Media\Models</Filter>
+    </Text>
+    <Text Include="Media\Models\car.txt">
+      <Filter>Media\Models</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\TreeSprite\TreeBaseVS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TreeSprite\TreeLight3PS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TreeSprite\TreeBaseGS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TreeSprite\TreeLight3TexClipPS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TreeSprite\TreeLight3TexClipFogPS.hlsl">
+      <Filter>Shaders\TreeSprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesUpdateCS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesDisturbCS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesBaseVS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesLight3PS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesLight3TexPS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Waves\WavesLight3TexFogPS.hlsl">
+      <Filter>Shaders\Waves</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Sky\SkyBasePS.hlsl">
+      <Filter>Shaders\Sky</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Sky\SkyBaseVS.hlsl">
+      <Filter>Shaders\Sky</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainBaseVS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainLight3TexFogPS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainLight3TexPS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainBaseDS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainBaseHS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Fire\BasicFireDrawGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Fire</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Fire\BasicFireDrawVS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Fire</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Fire\BasicFireSOGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Fire</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Fire\BasicFireDrawPS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Fire</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Rain\BasicRainDrawGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Rain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Rain\BasicRainDrawPS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Rain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Rain\BasicRainDrawVS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Rain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\Rain\BasicRainSOGS.hlsl">
+      <Filter>Shaders\BasicParticleSystem\Rain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicParticleSystem\BasicCommonSOVS.hlsl">
+      <Filter>Shaders\BasicParticleSystem</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthVS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepPS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepVS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthDS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthHS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepDS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepHS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\BilateralBlurVS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\SsaoPS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\SsaoVS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\BilateralBlurPSV.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\BilateralBlurPSH.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthPSClip.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthVSTess.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepPSClip.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepVSTess.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicDS00.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicDS10.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicDS11.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicHS.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00000300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00000301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00000310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00000311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00010300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00010301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00010310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00010311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00011300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00011301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00011310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS00011311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10000300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10000301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10000310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10000311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10010300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10010301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10010310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10010311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10011300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10011301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10011310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10011311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10100300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10100301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10100310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10100311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10110300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10110301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10110310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10110311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10111300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10111301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10111310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS10111311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11000300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11000301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11000310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11000311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11010300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11010301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11010310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11010311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11011300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11011301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11011310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11011311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11100300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11100301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11100310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11100311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11110300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11110301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11110310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11110311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11111300.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11111301.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11111310.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicPS11111311.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayVS.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayPSRed.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayPSGreen.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayPSBlue.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayPSAlpha.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\TextureDisplayPSAll.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain\TerrainLight3PS.hlsl">
+      <Filter>Shaders\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00000.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00001.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00100.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00101.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00110.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS00111.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10000.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10001.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10100.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10101.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10110.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS10111.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11000.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11001.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11100.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11101.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11110.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObject\Specific\BasicVS11111.hlsl">
+      <Filter>Shaders\BasicObject\Specific</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetDepthVSSkinned.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BasicObjectHelper\GetNorDepVSSkinned.hlsl">
+      <Filter>Shaders\BasicObjectHelper</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
