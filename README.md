@@ -6,27 +6,16 @@ The UWPMiniEngine is a simple graphic framework which runs on the latest Windows
 
 
 Features:
-
 1.Dynamic cube mapping
-
 2.Environment reflection
-
 3.Billboard tree
-
 4.Normal and displacement mapping
-
 5.Adaptive tessellation
-
 6.Terrain rendering
-
 7.GPU particle system
-
 8.GPU wave simulation
-
 9.Dynamic shadow mapping
-
 10.SSAO
-
 11.Efficient custom mesh file format .x3d
 
 12.High dpi support
