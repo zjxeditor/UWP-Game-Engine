@@ -37,4 +37,4 @@ Notes:
 3.Refer to "DeviceResource.cpp" to see configuration of MSAA, high dpi and waitable DXGI swapchain.
 4.The UWPMiniEngine is based on the book <<Introduction to 3D Game Programming with Direct11>>. Thanks to Frank D. Luna.
 5.Now, we are working on the skinned animations. We want to pack the necessary data from various file formats into.x3d file. FBX SDK and ASSIMP are two useful tools. It is really a hard time to this converting work because many details should be considered. 
-6.If you are interested in this project, please contact zjxworld@outlook.com.
+6.If you are interested in this project, please contact jxworkcn@yahoo.com.
