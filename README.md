@@ -4,20 +4,35 @@ Mini DirectX game engine for Windows 10 UWP platform
 
 The UWPMiniEngine is a simple graphic framework which runs on the latest Windows 10 UWP platform. It is written with C++/CX and divided into different individual modules. UWPMiniEngine doesn’t use the Effect framework. It owns a simple method to manage all the HLSL shades and do interaction between CPU and GPU. Currently, it supports the basic render pipeline and several advanced graphic techniques. 
 
+
 Features:
+
 1.Dynamic cube mapping
+
 2.Environment reflection
+
 3.Billboard tree
+
 4.Normal and displacement mapping
+
 5.Adaptive tessellation
+
 6.Terrain rendering
+
 7.GPU particle system
+
 8.GPU wave simulation
+
 9.Dynamic shadow mapping
+
 10.SSAO
+
 11.Efficient custom mesh file format .x3d
+
 12.High dpi support
+
 13.MSAA x2/x4/x8 support 
+
 
 Organization:
 1.Common: basic modules for the whole engine. Most files can be reused without any modification. 
