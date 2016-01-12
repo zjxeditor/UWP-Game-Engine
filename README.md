@@ -30,7 +30,7 @@ Requirements:
 1.Windows 10 OS  
 2.Visual Studio 2015  
 
-Notes: 
+Notes:  
 1.Do config each HLSL shader's type in Visual Studio manually in order to compell these shaders.  
 2.For each x3d mesh file, configure it as content in the property menu. Or that Visual Studio cannot recognize these files.  
 3.“DXFrameworkMain.cpp” file is very important. It contains all the pipelines for the UWPMiniEngine. So you only need to see this file to figure out how to use this mini engine. Really simple.  
