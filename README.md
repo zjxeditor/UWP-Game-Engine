@@ -24,16 +24,18 @@ Organization:
 3.Content: samples of the UWPMiniEngine. Each class is a unique rendering scene. You can create one scene in 			“DXFrameworkMain.cpp” file which manages the rendering pipeline.   
 4.Media: all resources for the mini engine including textures, meshes and other models.  
 5.Shaders: all the HLSL shaders for different components. Because we don’t use the Effect framework, so vs, ps, cs, gs, 	hs and ds are in individual files.  
-6.X3dConverter: convert fbx file format into x3d file format for rendering with this mini engine. Only static meshes are 	supported now.  
+6.X3dConverter: convert fbx file format into x3d file format for rendering with this mini engine. Only static meshes are supported now.  
 
 Requirements:  
 1.Windows 10 OS  
 2.Visual Studio 2015  
 
-Notes:  
-1.“DXFrameworkMain.cpp” file is very important. It contains all the pipelines for the UWPMiniEngine. So you only need to see this file to figure out how to use this mini engine. Really simple.  
-2.Use W/A/S/D to control the camera movement. Use left button to control the camera direction.  
-3.Refer to "DeviceResource.cpp" to see configuration of MSAA, high dpi and waitable DXGI swapchain.  
-4.The UWPMiniEngine is based on the book <<Introduction to 3D Game Programming with Direct11>>. Thanks to Frank D. Luna.  
-5.Now, we are working on the skinned animations. We want to pack the necessary data from various file formats into.x3d file. FBX SDK and ASSIMP are two useful tools. It is really a hard time to this converting work because many details should be considered.   
-6.If you are interested in this project, please contact jxworkcn@yahoo.com.
+Notes: 
+1.Do config each HLSL shader's type in Visual Studio manually in order to compell these shaders.  
+2.For each x3d mesh file, configure it as content in the property menu. Or that Visual Studio cannot recognize these files.  
+3.“DXFrameworkMain.cpp” file is very important. It contains all the pipelines for the UWPMiniEngine. So you only need to see this file to figure out how to use this mini engine. Really simple.  
+4.Use W/A/S/D to control the camera movement. Use left button to control the camera direction.  
+5.Refer to "DeviceResource.cpp" to see configuration of MSAA, high dpi and waitable DXGI swapchain.  
+6.The UWPMiniEngine is based on the book <<Introduction to 3D Game Programming with Direct11>>. Thanks to Frank D. Luna.  
+7.Now, we are working on the skinned animations. We want to pack the necessary data from various file formats into.x3d file. FBX SDK and ASSIMP are two useful tools. It is really a hard time to this converting work because many details should be considered.   
+8.If you are interested in this project, please contact jxworkcn@yahoo.com.
