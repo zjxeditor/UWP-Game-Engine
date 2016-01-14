@@ -55,7 +55,7 @@ struct VertexIn
 	float3 PosL     : POSITION;
 	float3 NormalL  : NORMAL;
 	float2 Tex      : TEXCOORD;
-#if NORMAL_ENABLE==1
+#if SKINNED_ENABLE==1 || NORMAL_ENABLE==1
 	float3 TangentL : TANGENT;
 #endif
 #if SKINNED_ENABLE==1

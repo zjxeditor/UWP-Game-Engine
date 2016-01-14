@@ -142,7 +142,7 @@ void LoadMaterialTexture(FbxSurfaceMaterial* surfaceMtl, Material& mtlCache, int
 void ReadPosition(FbxMesh* mesh, vector<Vertex>& verticesCache);
 void ReadIndex(FbxMesh* mesh, vector<int>& indicesCache);
 void ReadNormal(FbxMesh* mesh, vector<Vertex>& verticesCache);
-void ReadTangent(FbxMesh* mesh, vector<Vertex>& verticesCache);
+void ReadTangent(FbxMesh* mesh, vector<Vertex>& verticesCache, bool reGenerate = true);
 void ReadUV(FbxMesh* mesh, vector<Vertex>& verticesCache);
 void PackVI();
 void WriteX3DText();
@@ -152,7 +152,7 @@ void WriteX3DBinary();
 int main()
 {
 	// Change the following filename to a suitable filename value.
-	const char* filename = "ThroneRoom.fbx";
+	const char* filename = "Talia.fbx";
 
 	// Initialize the SDK manager. This object handles all our memory management.
 	FbxManager* sdkManager = FbxManager::Create();
@@ -180,6 +180,14 @@ int main()
 
 	// The file is imported; so get rid of the importer.
 	importer->Destroy();
+
+	// Convert mesh, NURBS and patch into triangle mesh
+	FbxGeometryConverter geomConverter(sdkManager);
+	geomConverter.Triangulate(scene, /*replace*/true);
+	// Split meshes per material, so that we only have one material per mesh.
+	// Sometimes the split mesh process may fail due to the FBX SDK issues.
+	// You can use the "LoadStaticModel_old.cpp" to finish the work.
+	geomConverter.SplitMeshesPerMaterial(scene, /*replace*/true);
 
 	cout << "Read data ..." << endl;
 
@@ -258,7 +266,7 @@ void ProcessMesh(FbxNode* node)
 	ReadIndex(mesh, indicesCache);
 	ReadPosition(mesh, verticesCache);
 	ReadNormal(mesh, verticesCache);
-	ReadTangent(mesh, verticesCache);
+	ReadTangent(mesh, verticesCache, false);
 	ReadUV(mesh, verticesCache);
 
 	VICache.push_back(currentVI);
@@ -435,8 +443,11 @@ void LoadMaterialAttribute(FbxSurfaceMaterial* surfaceMtl, Material& mtlCache)
 		mtlCache.Diffuse = XMFLOAT3((float)temp[0] * factor, (float)temp[1] * factor, (float)temp[2] * factor);
 	}
 	else
-		throw new exception("No support material type!");
-	LoadMaterialTexture(surfaceMtl, mtlCache);
+	{
+		WarningStream << "No support material type in mesh " << MeshIndex << "!" << endl;
+		return;
+	}
+	LoadMaterialTexture(surfaceMtl, mtlCache, 2);
 }
 
 // Get texture file name (texture and normal texture)
@@ -464,6 +475,7 @@ void LoadMaterialTexture(FbxSurfaceMaterial* surfaceMtl, Material& mtlCache, int
 		{
 			if (count >= limit)
 				break;
+
 			FbxFileTexture* fileTexture = FbxCast<FbxFileTexture>(fbxProperty.GetSrcObject<FbxTexture>(j));
 			if (fileTexture)
 			{
@@ -525,8 +537,6 @@ void ReadIndex(FbxMesh* mesh, vector<int>& indicesCache)
 	for (int i = 0; i < triangleCount; ++i)
 		for (int j = 0; j < 3; j++)
 		{
-			if (mesh->GetPolygonSize(i) != 3)
-				throw new exception("Not triangle error!");
 			int ctrlPointIndex = mesh->GetPolygonVertex(i, j);
 			indicesCache.push_back(ctrlPointIndex);
 		}
@@ -538,7 +548,11 @@ void ReadNormal(FbxMesh* mesh, vector<Vertex>& verticesCache)
 	if (mesh->GetElementNormalCount() < 1)
 	{
 		WarningStream << "Lack Normal in mesh " << MeshIndex << "!" << endl;
-		return;
+		if (!mesh->GenerateNormals())
+		{
+			WarningStream << "Regenerate normal failed!" << endl;
+			return;
+		}
 	}
 
 	FbxGeometryElementNormal* leNormal = mesh->GetElementNormal(0);
@@ -587,7 +601,11 @@ void ReadNormal(FbxMesh* mesh, vector<Vertex>& verticesCache)
 			for (int i = 0; i < triangleCount; ++i)
 				for (int j = 0; j < 3; j++)
 				{
+					if (i == 45608)
+						int a = 0;
+
 					int ctrlPointIndex = mesh->GetPolygonVertex(i, j);
+
 					verticesCache[ctrlPointIndex].Normal.x = (float)leNormal->GetDirectArray()[vertexCounter][0];
 					verticesCache[ctrlPointIndex].Normal.y = (float)leNormal->GetDirectArray()[vertexCounter][1];
 					verticesCache[ctrlPointIndex].Normal.z = (float)leNormal->GetDirectArray()[vertexCounter][2];
@@ -623,12 +641,18 @@ void ReadNormal(FbxMesh* mesh, vector<Vertex>& verticesCache)
 }
 
 // Only one tangent data is stored for each control point
-void ReadTangent(FbxMesh* mesh, vector<Vertex>& verticesCache)
+void ReadTangent(FbxMesh* mesh, vector<Vertex>& verticesCache, bool reGenerate)
 {
 	if (mesh->GetElementTangentCount() < 1)
 	{
 		WarningStream << "Lack Tangent in mesh " << MeshIndex << "!" << endl;
-		return;
+		if (!reGenerate)
+			return;
+		if (!mesh->GenerateTangentsDataForAllUVSets())
+		{
+			WarningStream << "Regenerate tangent failed!" << endl;
+			return;
+		}
 	}
 
 	FbxGeometryElementTangent* leTangent = mesh->GetElementTangent(0);
@@ -793,7 +817,7 @@ void PackVI()
 					defaultMtlIndex = Materials.size() - 1;
 				}
 				subset.MtlIndex = defaultMtlIndex;
-			}	
+			}
 
 
 	sort(VICache.begin(), VICache.end(), [](MeshVI& a, MeshVI&b) {return a.Subsets.size() < b.Subsets.size(); });
@@ -809,7 +833,7 @@ void PackVI()
 	int indexCount = 0;
 	int offset = 0;
 	int currentMtl = VICache[0].Subsets[0].MtlIndex;
-	
+
 	// Process single subset MeshVI
 	for (int i = 0; i < singleCount; ++i)
 	{
@@ -847,7 +871,7 @@ void PackVI()
 	subset.IndexStart = indexOffset;
 	subset.IndexCount = indexCount;
 	Subsets.push_back(subset);
-	
+
 	// Process multi subset MeshVI
 	for (int i = singleCount; i < (int)VICache.size(); ++i)
 	{

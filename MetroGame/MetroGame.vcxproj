@@ -220,6 +220,14 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <DeploymentContent>true</DeploymentContent>
     </Image>
+    <Image Include="Media\Meshes\DHellFighter\barbarians_CK_D.jpg" />
+    <Image Include="Media\Meshes\DHellFighter\barbarians_CK_N.jpg" />
+    <Image Include="Media\Meshes\DTiger\FbxTemp_0001.jpg" />
+    <Image Include="Media\Meshes\DZombie\francisca[1].jpg" />
+    <Image Include="Media\Meshes\DZombie\ribs_dark.png" />
+    <Image Include="Media\Meshes\DZombie\ribs_light.png" />
+    <Image Include="Media\Meshes\DZombie\zomby_dark.png" />
+    <Image Include="Media\Meshes\DZombie\zomby_light.png" />
     <Image Include="Media\Meshes\Eagle\Balbeak.jpg" />
     <Image Include="Media\Meshes\Eagle\Balbeak10.jpg" />
     <Image Include="Media\Meshes\Eagle\Balbeak11.jpg" />
@@ -263,9 +271,80 @@
     <Image Include="Media\Meshes\Eagle\clouds.jpg" />
     <Image Include="Media\Meshes\Eagle\SKY.jpg" />
     <Image Include="Media\Meshes\HeadHunter\Map__1_Falloff.jpg" />
+    <Image Include="Media\Meshes\MagicCube\borgcubeexterior.jpg" />
+    <Image Include="Media\Meshes\MagicSphere\borg2.jpg" />
     <Image Include="Media\Meshes\Rocket\ARIAN.JPG" />
     <Image Include="Media\Meshes\Rocket\ARIWHI.JPG" />
     <Image Include="Media\Meshes\Rocket\LAKEREM2.JPG" />
+    <Image Include="Media\Meshes\SpaceShip0\BayDoorsDark.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\BayDoorsLight.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\BC_Deck2.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\BC_Deck2_Spec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Bridge Window.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Bridge.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\CopperStrip.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Cowling.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\CowlingSpec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DarkBlueGreen.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DarkBlueGreenPaneled.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DefGlow.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorBack.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorDetails.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorDish.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\DockingRings.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Engine_Glow.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\FakeChrome2.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\GenericRound.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Green.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\ImpulseStripsHoriz.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\ImpulseTop.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Impulse_Glow.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\LightBlueGreen.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\LowerIntakes.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\LowerIntakesSpec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleDome.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleGlow.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleInside.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleOutside.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleOutsideLeft.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\NacelleSpec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Orange.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Red.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Registry.png" />
+    <Image Include="Media\Meshes\SpaceShip0\Registryalpha.png" />
+    <Image Include="Media\Meshes\SpaceShip0\RimWindows1.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerDetailsDarker.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerRim.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerStrip.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerStrip_Spec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerTop.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SaucerTopSpec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SecondaryHull.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SecondaryHullSpec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SmallStrip.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsDarkHull.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsNew.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsNewDark.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\white.jpg" />
+    <Image Include="Media\Meshes\SpaceShip0\Yellow.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\EntBk.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42-360.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Bump.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Spec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42B-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42BCG-Bump.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42BCG-Spec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42C-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42D-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42E-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42F-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42G-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Alfa.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Bump.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Diff.jpg" />
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Spec.jpg" />
+    <Image Include="Media\Meshes\SpaceShip2\Inside Core.jpg" />
     <Image Include="Media\Meshes\SpaceStation\Aluminum6.jpg" />
     <Image Include="Media\Meshes\SpaceStation\ALUM_809.JPG" />
     <Image Include="Media\Meshes\SpaceStation\ALUM_8L2.JPG" />
@@ -273,14 +352,6 @@
     <Image Include="Media\Meshes\SpaceStation\Map__12_Mix.jpg" />
     <Image Include="Media\Meshes\SpaceStation\Map__8_Falloff.jpg" />
     <Image Include="Media\Meshes\SpaceStation\Map__9_Mix.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Concrete_0135.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Concrete_0340.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Copper_Panels_0013.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0038.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0160.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Flooring_0173.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Metal_0030.jpg" />
-    <Image Include="Media\Meshes\ThroneRoom\Metal_0103.jpg" />
     <Image Include="Media\Other\cover.jpg" />
     <Image Include="Media\Textures\bricks.dds" />
     <Image Include="Media\Textures\bricks_nmap.dds" />
@@ -345,6 +416,7 @@
     <ClInclude Include="Content\ParticleSystemRenderer.h" />
     <ClInclude Include="Content\GPUWavesRenderer.h" />
     <ClInclude Include="Content\ShadowObjectsRenderer.h" />
+    <ClInclude Include="Content\SkinnedMeshModelRenderer.h" />
     <ClInclude Include="Content\SsaoObjectsRenderer.h" />
     <ClInclude Include="Content\TerrainRenderer.h" />
     <ClInclude Include="DXFrameworkMain.h" />
@@ -389,6 +461,7 @@
     <ClCompile Include="Content\ParticelSystemRenderer.cpp" />
     <ClCompile Include="Content\GPUWavesRenderer.cpp" />
     <ClCompile Include="Content\ShadowObjectsRenderer.cpp" />
+    <ClCompile Include="Content\SkinnedMeshModelRenderer.cpp" />
     <ClCompile Include="Content\SsaoObjectsRenderer.cpp" />
     <ClCompile Include="Content\TerrainRenderer.cpp" />
     <ClCompile Include="DXFrameworkMain.cpp" />
@@ -416,25 +489,43 @@
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
       <FileType>Document</FileType>
     </Image>
+    <None Include="Media\Meshes\DHellFighter\DHellFighter.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\DTiger\DTiger.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\DZombie\DZombie0.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\DZombie\DZombie1.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
     <None Include="Media\Meshes\Eagle\Eagle.x3d">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
     </None>
     <None Include="Media\Meshes\HeadHunter\HeadHunter.x3d">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
     </None>
+    <None Include="Media\Meshes\MagicCube\MagicCube.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\MagicSphere\MagicSphere.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
     <None Include="Media\Meshes\Rocket\Rocket.x3d">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
     </None>
+    <None Include="Media\Meshes\SpaceShip0\SpaceShip0.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\SpaceShip1\SpaceShip1.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="Media\Meshes\SpaceShip2\SpaceShip2.x3d">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
     <None Include="Media\Meshes\SpaceStation\SpaceStation.x3d">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
-    </None>
-    <None Include="Media\Meshes\ThreeBodyShip\ThreeBodyShip.x3d">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
-    </None>
-    <None Include="Media\Meshes\ThroneRoom\ThroneRoom.x3d">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
-    </None>
-    <None Include="Media\Meshes\WindMill\WindMill.x3d">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
     </None>
   </ItemGroup>

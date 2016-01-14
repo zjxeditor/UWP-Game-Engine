@@ -29,10 +29,10 @@ namespace DXFramework
 		static void ReadIndices(std::ifstream& fin, UINT numTriangles, std::vector<UINT>& indices);
 		static void ReadSkinnedVertices(std::ifstream& fin, UINT numVertices, std::vector<DX::PosNormalTexTanSkinned>& vertices);
 		static void ReadBoneOffsets(std::ifstream& fin, UINT numBones, std::vector<DirectX::XMFLOAT4X4>& boneOffsets);
-		static void ReadBoneHierarchy(std::ifstream& fin, UINT numBones, std::vector<int>& boneIndexToParentIndex);
 		static void ReadAnimationClips(std::ifstream& fin, UINT numBones, UINT numAnimationClips, std::map<std::wstring, AnimationClip>& animations);
 		static void ReadBoneKeyframes(std::ifstream& fin, UINT numBones, BoneAnimation& boneAnimation);
 	};
 }
+
 
 

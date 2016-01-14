@@ -133,6 +133,10 @@ void MeshModelRenderer::Render()
 
 	m_perFrameCB->ApplyChanges(context.Get());
 	
+
+	auto renderStateMgr = RenderStateMgr::Instance();
+	context->RSSetState(renderStateMgr->NoCullRS());
+
 	m_mesh->Render(true);
 }
 

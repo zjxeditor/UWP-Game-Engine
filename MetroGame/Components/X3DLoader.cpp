@@ -43,9 +43,6 @@ void X3DLoader::LoadX3dStatic(const std::wstring& filename,
 	throw ref new Platform::FailureException("Can not load .m3d model!");
 }
 
-// Skinned mesh data isn't support now due to the difficulty of file format converter. 
-// We are now work with FBX SDK and ASSIMP to export skinned animaton dat to our custom 
-// .x3d file.
 void X3DLoader::LoadX3dSkinned(const std::wstring& filename,
 	std::vector<PosNormalTexTanSkinned>& vertices,
 	std::vector<UINT>& indices,
@@ -54,7 +51,7 @@ void X3DLoader::LoadX3dSkinned(const std::wstring& filename,
 	SkinnedData& skinInfo)
 {
 	// Read binary data
-	std::ifstream fin(filename);
+	std::ifstream fin(filename, std::ios::binary);
 
 	UINT numMaterials = 0;
 	UINT numSubsets = 0;
@@ -73,7 +70,6 @@ void X3DLoader::LoadX3dSkinned(const std::wstring& filename,
 		fin.read((char*)&numAnimationClips, sizeof(int));
 		
 		std::vector<XMFLOAT4X4> boneOffsets;
-		std::vector<int> boneIndexToParentIndex;
 		std::map<std::wstring, AnimationClip> animations;
 
 		ReadMaterials(fin, numMaterials, mats);
@@ -81,10 +77,9 @@ void X3DLoader::LoadX3dSkinned(const std::wstring& filename,
 		ReadSkinnedVertices(fin, numVertices, vertices);
 		ReadIndices(fin, numIndices, indices);
 		ReadBoneOffsets(fin, numBones, boneOffsets);
-		ReadBoneHierarchy(fin, numBones, boneIndexToParentIndex);
 		ReadAnimationClips(fin, numBones, numAnimationClips, animations);
 
-		skinInfo.Initialize(boneIndexToParentIndex, boneOffsets, animations);
+		skinInfo.Initialize(boneOffsets, animations);
 
 		return;
 	}
@@ -159,7 +154,7 @@ void X3DLoader::ReadSkinnedVertices(std::ifstream& fin, UINT numVertices, std::v
 {
 	vertices.resize(numVertices);
 
-	UINT boneIndices[4];
+	int boneIndices[4];
 	float weights[4];
 	for (auto& item : vertices)
 	{
@@ -167,8 +162,8 @@ void X3DLoader::ReadSkinnedVertices(std::ifstream& fin, UINT numVertices, std::v
 		fin.read((char*)&item.Normal, sizeof(XMFLOAT3));
 		fin.read((char*)&item.TangentU, sizeof(XMFLOAT3));
 		fin.read((char*)&item.Tex, sizeof(XMFLOAT2));
-		fin.read((char*)&weights[0], 4 * sizeof(float));
 		fin.read((char*)&boneIndices[0], 4 * sizeof(int));
+		fin.read((char*)&weights[0], 4 * sizeof(float));
 
 		item.Weights.x = weights[0];
 		item.Weights.y = weights[1];
@@ -187,16 +182,6 @@ void X3DLoader::ReadBoneOffsets(std::ifstream& fin, UINT numBones, std::vector<X
 
 	for (auto& item : boneOffsets)
 		fin.read((char*)&item, sizeof(XMFLOAT4X4));
-}
-
-void X3DLoader::ReadBoneHierarchy(std::ifstream& fin, UINT numBones, std::vector<int>& boneIndexToParentIndex)
-{
-	boneIndexToParentIndex.resize(numBones);
-
-	for (auto& item : boneIndexToParentIndex)
-	{
-		fin.read((char*)&item, sizeof(int));
-	}
 }
 
 void X3DLoader::ReadAnimationClips(std::ifstream& fin, UINT numBones, UINT numAnimationClips,

@@ -5,9 +5,6 @@
 #include "Common/ShaderMgr.h"
 #include "Common/LightHelper.h"
 
-
-// Warning: Skinned animation is supported now for the custom .x3d mesh format. 
-
 enum class EffectType
 {
 	NoTexture,
@@ -72,7 +69,6 @@ namespace DXFramework
 		float GetClipEndTime(const std::wstring& clipName)const;
 
 		void Initialize(
-			std::vector<int>& boneHierarchy,
 			std::vector<DirectX::XMFLOAT4X4>& boneOffsets,
 			std::map<std::wstring, AnimationClip>& animations);
 
@@ -83,11 +79,7 @@ namespace DXFramework
 			std::vector<DirectX::XMFLOAT4X4>& finalTransforms)const;
 
 	private:
-		// Gives parentIndex of ith bone.
-		std::vector<int> m_boneHierarchy;
-
 		std::vector<DirectX::XMFLOAT4X4> m_boneOffsets;
-
 		std::map<std::wstring, AnimationClip> m_animations;
 	};
 }

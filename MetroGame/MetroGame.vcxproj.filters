@@ -92,9 +92,6 @@
     <Filter Include="Media\Meshes">
       <UniqueIdentifier>{cbd857a4-c449-4227-a87e-2f3ce6c3073e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Media\Meshes\WindMill">
-      <UniqueIdentifier>{f2d6099d-bb07-4eb7-9f2a-167688455a39}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Media\Meshes\Rocket">
       <UniqueIdentifier>{9ce6b891-8d1e-4635-accf-0061da72e370}</UniqueIdentifier>
     </Filter>
@@ -107,11 +104,29 @@
     <Filter Include="Media\Meshes\SpaceStation">
       <UniqueIdentifier>{ab302d13-08a0-4b33-a518-7d83cbae31d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Media\Meshes\ThreeBodyShip">
-      <UniqueIdentifier>{dd2cfa92-b1e1-4d1a-b842-8567effd64e2}</UniqueIdentifier>
+    <Filter Include="Media\Meshes\DTiger">
+      <UniqueIdentifier>{9657f0eb-ad5a-4a06-9486-d49255407976}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Media\Meshes\ThroneRoom">
-      <UniqueIdentifier>{cf17cc77-8254-4fc9-857a-45cd1125949f}</UniqueIdentifier>
+    <Filter Include="Media\Meshes\DHellFighter">
+      <UniqueIdentifier>{ad2c0e08-81ea-4fb3-bad2-16c34ace5d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\SpaceShip0">
+      <UniqueIdentifier>{c71e2f4f-81cd-4257-aa9f-b0b8563d2647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\MagicCube">
+      <UniqueIdentifier>{d77488bd-e0fc-4f1e-93fb-5b752f1919ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\MagicSphere">
+      <UniqueIdentifier>{e371032b-fcb8-4809-a2b5-27287da3e9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\SpaceShip1">
+      <UniqueIdentifier>{52bf7fd9-7922-4e47-a7a6-cec81bd0b018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\SpaceShip2">
+      <UniqueIdentifier>{43719bf8-4e5c-47eb-84ff-eb65353f5df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes\DZombie">
+      <UniqueIdentifier>{d6dd453c-5330-4c71-90d4-7bf60ad148d4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +235,9 @@
     </ClCompile>
     <ClCompile Include="Components\X3DLoader.cpp">
       <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SkinnedMeshModelRenderer.cpp">
+      <Filter>Content</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -334,6 +352,9 @@
     </ClInclude>
     <ClInclude Include="Components\X3DLoader.h">
       <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SkinnedMeshModelRenderer.h">
+      <Filter>Content</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -601,29 +622,242 @@
     <Image Include="Media\Meshes\SpaceStation\Map__12_Mix.jpg">
       <Filter>Media\Meshes\SpaceStation</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Concrete_0135.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\DTiger\FbxTemp_0001.jpg">
+      <Filter>Media\Meshes\DTiger</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Concrete_0340.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\DHellFighter\barbarians_CK_D.jpg">
+      <Filter>Media\Meshes\DHellFighter</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Copper_Panels_0013.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\DHellFighter\barbarians_CK_N.jpg">
+      <Filter>Media\Meshes\DHellFighter</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0038.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\SpaceShip0\BayDoorsDark.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Doors_Windows_0160.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\SpaceShip0\BayDoorsLight.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Flooring_0173.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\SpaceShip0\BC_Deck2.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Metal_0030.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\SpaceShip0\BC_Deck2_Spec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
     </Image>
-    <Image Include="Media\Meshes\ThroneRoom\Metal_0103.jpg">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <Image Include="Media\Meshes\SpaceShip0\Bridge Window.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Bridge.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\CopperStrip.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Cowling.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\CowlingSpec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DarkBlueGreen.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DarkBlueGreenPaneled.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DefGlow.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorBack.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorDetails.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DeflectorDish.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\DockingRings.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Engine_Glow.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\FakeChrome2.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\GenericRound.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Green.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Impulse_Glow.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\ImpulseStripsHoriz.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\ImpulseTop.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\LightBlueGreen.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\LowerIntakes.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\LowerIntakesSpec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleDome.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleGlow.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleInside.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleOutside.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleOutsideLeft.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\NacelleSpec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Orange.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Red.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Registry.png">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Registryalpha.png">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\RimWindows1.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerDetailsDarker.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerRim.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerStrip.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerStrip_Spec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerTop.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SaucerTopSpec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SecondaryHull.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SecondaryHullSpec.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SmallStrip.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsDarkHull.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsNew.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\SquarePanelsNewDark.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\white.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip0\Yellow.jpg">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </Image>
+    <Image Include="Media\Meshes\MagicCube\borgcubeexterior.jpg">
+      <Filter>Media\Meshes\MagicCube</Filter>
+    </Image>
+    <Image Include="Media\Meshes\MagicSphere\borg2.jpg">
+      <Filter>Media\Meshes\MagicSphere</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\EntBk.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42-360.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Bump.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42A-Spec.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42BCG-Bump.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42BCG-Spec.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42B-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42C-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42D-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42E-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42F-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42G-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Alfa.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Bump.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Diff.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip1\SB42K-Spec.jpg">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </Image>
+    <Image Include="Media\Meshes\SpaceShip2\Inside Core.jpg">
+      <Filter>Media\Meshes\SpaceShip2</Filter>
+    </Image>
+    <Image Include="Media\Meshes\DZombie\francisca[1].jpg">
+      <Filter>Media\Meshes\DZombie</Filter>
+    </Image>
+    <Image Include="Media\Meshes\DZombie\ribs_dark.png">
+      <Filter>Media\Meshes\DZombie</Filter>
+    </Image>
+    <Image Include="Media\Meshes\DZombie\ribs_light.png">
+      <Filter>Media\Meshes\DZombie</Filter>
+    </Image>
+    <Image Include="Media\Meshes\DZombie\zomby_dark.png">
+      <Filter>Media\Meshes\DZombie</Filter>
+    </Image>
+    <Image Include="Media\Meshes\DZombie\zomby_light.png">
+      <Filter>Media\Meshes\DZombie</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -670,12 +904,6 @@
     <None Include="Shaders\BasicObjectHelper\TextureDisplayPS.hlsl">
       <Filter>Shaders\BasicObjectHelper</Filter>
     </None>
-    <None Include="Media\Meshes\Rocket\Rocket.x3d">
-      <Filter>Media\Meshes\Rocket</Filter>
-    </None>
-    <None Include="Media\Meshes\WindMill\WindMill.x3d">
-      <Filter>Media\Meshes\WindMill</Filter>
-    </None>
     <None Include="Media\Meshes\HeadHunter\HeadHunter.x3d">
       <Filter>Media\Meshes\HeadHunter</Filter>
     </None>
@@ -685,11 +913,35 @@
     <None Include="Media\Meshes\SpaceStation\SpaceStation.x3d">
       <Filter>Media\Meshes\SpaceStation</Filter>
     </None>
-    <None Include="Media\Meshes\ThreeBodyShip\ThreeBodyShip.x3d">
-      <Filter>Media\Meshes\ThreeBodyShip</Filter>
+    <None Include="Media\Meshes\Rocket\Rocket.x3d">
+      <Filter>Media\Meshes\Rocket</Filter>
     </None>
-    <None Include="Media\Meshes\ThroneRoom\ThroneRoom.x3d">
-      <Filter>Media\Meshes\ThroneRoom</Filter>
+    <None Include="Media\Meshes\DTiger\DTiger.x3d">
+      <Filter>Media\Meshes\DTiger</Filter>
+    </None>
+    <None Include="Media\Meshes\DHellFighter\DHellFighter.x3d">
+      <Filter>Media\Meshes\DHellFighter</Filter>
+    </None>
+    <None Include="Media\Meshes\SpaceShip0\SpaceShip0.x3d">
+      <Filter>Media\Meshes\SpaceShip0</Filter>
+    </None>
+    <None Include="Media\Meshes\MagicCube\MagicCube.x3d">
+      <Filter>Media\Meshes\MagicCube</Filter>
+    </None>
+    <None Include="Media\Meshes\MagicSphere\MagicSphere.x3d">
+      <Filter>Media\Meshes\MagicSphere</Filter>
+    </None>
+    <None Include="Media\Meshes\SpaceShip1\SpaceShip1.x3d">
+      <Filter>Media\Meshes\SpaceShip1</Filter>
+    </None>
+    <None Include="Media\Meshes\SpaceShip2\SpaceShip2.x3d">
+      <Filter>Media\Meshes\SpaceShip2</Filter>
+    </None>
+    <None Include="Media\Meshes\DZombie\DZombie0.x3d">
+      <Filter>Media\Meshes\DZombie</Filter>
+    </None>
+    <None Include="Media\Meshes\DZombie\DZombie1.x3d">
+      <Filter>Media\Meshes\DZombie</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

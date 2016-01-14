@@ -9,6 +9,7 @@
 #include "Content\ParticleSystemRenderer.h"
 #include "Content\GPUWavesRenderer.h"
 #include "Content\MeshModelRenderer.h"
+#include "Content\SkinnedMeshModelRenderer.h"
 
 #include "Common\GameTimer.h"
 #include "Common\DeviceResources.h"
@@ -68,7 +69,8 @@ namespace DXFramework
 		//std::unique_ptr<TerrainRenderer> m_sceneRenderer;
 		//std::unique_ptr<ParticleSystemRenderer> m_sceneRenderer;
 		//std::unique_ptr<GPUWavesRenderer> m_sceneRenderer;
-		std::unique_ptr<MeshModelRenderer> m_sceneRenderer;
+		//std::unique_ptr<MeshModelRenderer> m_sceneRenderer;
+		std::unique_ptr<SkinnedMeshModelRenderer> m_sceneRenderer;
 		std::unique_ptr<SampleFpsTextRenderer> m_fpsTextRenderer;
 
 		std::unique_ptr<DX::LoadScreen> m_loadScreen;

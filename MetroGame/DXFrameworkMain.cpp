@@ -55,7 +55,8 @@ DXFrameworkMain::DXFrameworkMain(const std::shared_ptr<DX::DeviceResources>& dev
 	//m_sceneRenderer = std::make_unique<TerrainRenderer>(m_deviceResources, m_camera);
 	//m_sceneRenderer = std::make_unique<ParticleSystemRenderer>(m_deviceResources, m_camera);
 	//m_sceneRenderer = std::make_unique<GPUWavesRenderer>(m_deviceResources, m_camera);
-	m_sceneRenderer = std::make_unique<MeshModelRenderer>(m_deviceResources, m_camera);
+	//m_sceneRenderer = std::make_unique<MeshModelRenderer>(m_deviceResources, m_camera);
+	m_sceneRenderer = std::make_unique<SkinnedMeshModelRenderer>(m_deviceResources, m_camera);
 	m_sceneRenderer->Initialize();
 	
 	CreateWindowSizeDependentResources();
