@@ -1,3 +1,6 @@
+# Working
+I am working to change this to a normal desktop real time rendering framework with DirectX 12. Deferred rendering pipeline will be used.  
+
 # UWPMiniEngine
 Mini DirectX game engine for Windows 10 UWP platform  
 
