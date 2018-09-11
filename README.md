@@ -12,7 +12,7 @@ Features:
 3.Billboard tree  
 4.Normal and displacement mapping  
 5.Adaptive tessellation  
-6.Terrain rendering
+6.Terrain rendering  
 7.GPU particle system  
 8.GPU wave simulation  
 9.Dynamic shadow mapping  
